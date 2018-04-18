@@ -12,5 +12,6 @@ it('renders without crashing', () => {
 it('test 2', () => {
   const div = document.createElement('div');
   expect(3).toBe(3);
+  
 });
 

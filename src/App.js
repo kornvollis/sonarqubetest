@@ -4,6 +4,9 @@ import './App.css';
 
 class App extends Component {
   render() {
+
+    var unusedVar = "sadasd";
+
     return (
       <div className="App">
         <header className="App-header">
