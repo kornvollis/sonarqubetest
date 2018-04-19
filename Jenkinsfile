@@ -6,7 +6,7 @@ pipeline {
         echo 'Helloka'
       }
     }
-    stage('') {
+    stage('sonar') {
       steps {
         waitForQualityGate()
       }
