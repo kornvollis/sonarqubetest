@@ -6,5 +6,10 @@ pipeline {
         echo 'Helloka'
       }
     }
+    stage('build') {
+      steps {
+        sh 'npm i'
+      }
+    }
   }
 }
