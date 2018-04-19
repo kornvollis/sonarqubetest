@@ -1,10 +1,9 @@
 pipeline {
   agent none
   stages {
-    stage('build') {
+    stage('Say hello') {
       steps {
-        sh '''echo "Szevasz tavasz"
-npm install'''
+        echo 'Helloka'
       }
     }
   }
