@@ -6,9 +6,9 @@ pipeline {
         echo 'Helloka'
       }
     }
-    stage('build') {
+    stage('') {
       steps {
-        sh 'npm i'
+        waitForQualityGate()
       }
     }
   }
